@@ -1,2 +1,2 @@
-# Healtcare-Management-System
-Healtcare Management System
+# Healthcare-Management-System
+Healthcare Management System
