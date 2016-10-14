@@ -1,0 +1,93 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "creation": "2016-10-14 15:57:39.289786", 
+ "doc_type": "Appointment", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "Book Appointment for OPD", 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2016-10-14 20:27:58.489528", 
+ "modified_by": "Administrator", 
+ "module": "Healtcare", 
+ "name": "appointment", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "appointment", 
+ "show_sidebar": 1, 
+ "sidebar_items": [
+  {
+   "enabled": 1, 
+   "role": "Receptionist", 
+   "route": "appointment", 
+   "title": "Appoitment"
+  }
+ ], 
+ "success_url": "/appointment", 
+ "title": "Appointment", 
+ "web_form_fields": [
+  {
+   "fieldname": "patient", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Patient NAME", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Patient", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "patient_mobile_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Patient Mobile No", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "patient.mobile_no", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "appointment_date", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "Date", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "appointment_time", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Time", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "doctor", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Doctor Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Doctor", 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}
